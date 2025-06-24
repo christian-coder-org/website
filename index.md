@@ -57,7 +57,7 @@ Easily move betweens chapters and the verses within a chapter. There is even a f
 
 ## Auditing?
 
-Anyone can view the [source code](https://github.com/christian-coder-org/bible-reader) of the Bible Reader app an perform an audit. Please feel free to verify the claims of the Christian Coder.
+Anyone can view the [source code](https://github.com/christian-coder-org/bible-reader) of the Bible Reader app and perform an audit. Please feel free to verify the claims of the Christian Coder.
 
 ```ts
 // A small sample of the typescript code behind the Bible Reader app.
