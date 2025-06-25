@@ -73,6 +73,7 @@ const confirm = (identifier: string) =>
 
 The Christian Coder uses the [Unlicense template](https://unlicense.org). This template provides for free and unencumbered software released into the public domain. Such a license empowers people to grow and sustain the thriving wealth of shared knowledge and culture we need to address the world's most pressing challenges and create a brighter future for all.
 
-- View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
+- View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/bible-reader/blob/main/UNLICENSE.md) file.
 
-- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/bible-reader/blob/main/UNLICENSE.md) file.
+- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
+
