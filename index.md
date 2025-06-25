@@ -71,8 +71,8 @@ const confirm = (identifier: string) =>
 
 ## Unlicense
 
-The source code behind this website uses the [Unlicense template](https://unlicense.org). It is a template for dedicating software to the public domain.
+The Christian Coder uses the [Unlicense template](https://unlicense.org). This template provides for free and unencumbered software released into the public domain.
 
-- View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE) file.
+- View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
 
-- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE) file.
+- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
