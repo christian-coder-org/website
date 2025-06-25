@@ -76,5 +76,3 @@ The source code behind this website uses the [Unlicense template](https://unlice
 - View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE) file.
 
 - View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE) file.
-
-
