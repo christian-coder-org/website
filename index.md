@@ -16,11 +16,10 @@ hero:
 features:
   - title: About
     details: A simple, free, and open source app to read the Bible. The app is fast, nimble, and very easy to use.
-  - title: Tweleve Bible editions
+  - title: Twelve Bible editions
     details: There are twelve different editions of the Bible including the King James and Catholic Public Domain editions, and more.
   - title: Internally funded
     details: The Christian Coder is committed to build and maintain the Bible Reader app without any external financial support or donations.
-
 ---
 
 ::::warning Apple's app store
@@ -36,7 +35,7 @@ An application to host the Bible Reader app on Apple's app store is currently pe
 - No backend server access
 - 100% open source
 - Source code open to public auditing
-- Creative commons license
+- Unlicense dedication to the public domain
 
 ## Quick look
 
@@ -67,13 +66,15 @@ const bibles = ref(BIBLES);
 
 const cancel = () => modalController.dismiss(null, "cancel");
 const confirm = (identifier: string) =>
-modalController.dismiss(identifier, "confirm");
+  modalController.dismiss(identifier, "confirm");
 ```
 
-## What is Creative Commons?
+## Unlicense
 
-<img src="/cc-zero.png" style="width:150px;">
+The source code behind this website uses the [Unlicense template](https://unlicense.org). It is a template for dedicating software to the public domain.
 
-[Creative Commons](https://creativecommons.org/) is an international nonprofit organization that empowers people to grow and sustain the thriving commons of shared knowledge and culture needed to address the world's most pressing challenges and create a brighter future for all.
+- View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE) file.
 
-The Christian Coder is proud to have submitted 100% of the Bible Reader app's source code under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en) license. This grants anyone world-wide the right to use the source code but no one, including the Christian Coder, can copyright any or part of the source code.
+- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE) file.
+
+
