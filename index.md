@@ -55,7 +55,7 @@ Easily move betweens chapters and the verses within a chapter. There is even a f
 
 <div><img src="/reader.png" style="width:250px;margin-right:20px;border:1px solid grey;border-radius:.5em;"></div>
 
-## Auditing?
+## Auditing
 
 Anyone can view the [source code](https://github.com/christian-coder-org/bible-reader) of the Bible Reader app and perform an audit. Please feel free to verify the claims of the Christian Coder.
 
@@ -77,7 +77,3 @@ modalController.dismiss(identifier, "confirm");
 [Creative Commons](https://creativecommons.org/) is an international nonprofit organization that empowers people to grow and sustain the thriving commons of shared knowledge and culture needed to address the world's most pressing challenges and create a brighter future for all.
 
 The Christian Coder is proud to have submitted 100% of the Bible Reader app's source code under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en) license. This grants anyone world-wide the right to use the source code but no one, including the Christian Coder, can copyright any or part of the source code.
-
-## Roadmap
-
-There are features yet to be implemented. Books marks are the next big thing. Be assured that anything added to the Bible Reader app will go through a "simple to use" filter. When new features role out the Bible Reader app will of course have the same update experience common to other apps.
