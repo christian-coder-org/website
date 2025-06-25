@@ -75,4 +75,4 @@ The Christian Coder uses the [Unlicense template](https://unlicense.org). This t
 
 - View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
 
-- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
+- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/bible-reader/blob/main/UNLICENSE.md) file.
