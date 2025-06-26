@@ -11,12 +11,25 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+        text: 'Overview',
+        link: './',
+      },
+      {
+        text: 'Domain services',
+        link: '/docs/dns.md',
+      },
+      {
+        text: 'Logo',
+        link: '/docs/logo.md',
+      },
+      {
+        text: 'Build app',
+        link: '/docs/build-app.md',
+      },
+      {
+        text: 'Assets (icon & splash)',
+        link: '/docs/app-icon-splash-screens.md',
+      },
     ],
 
     socialLinks: [
