@@ -17,7 +17,7 @@ features:
   - title: About
     details: A simple, free, and open source app to read the Bible. The app is fast, nimble, and very easy to use.
   - title: Twelve Bible editions
-    details: There are twelve different editions of the Bible including the King James and Catholic Public Domain editions, and more.
+    details: There are twelve different editions of the Bible including the King James, Catholic Public Domain, and more.
   - title: Internally funded
     details: The Christian Coder is committed to build and maintain the Bible Reader app without any external financial support or donations.
 ---
@@ -27,53 +27,111 @@ features:
 An application to host the Bible Reader app on Apple's app store is currently pending.
 ::::
 
-- Free app
-- No in-app purchases
-- No online purchases
-- No ads
-- No user logins, tracking, or analytics
-- No backend server access
-- 100% open source
-- Source code open to public auditing
-- Unlicense dedication to the public domain
+<!-- The indentation that follows is important or you get an error -->
+<div class="flex-container">
 
+  <!-- PRIVACY-->
+  <div  class="flex-item">
+  <div style="font-weight:bold;font-size:x-large;"> Privacy</div>
+
+  <p>
+    The Christian Coder will never contact you because there is no login, thus no way to identify you. And app stores do not provide your identity.
+  </p>
+
+  <ul>
+  <li>Free app</li>
+  <li>No in-app purchases</li>
+  <li>No online purchases</li>
+  <li>No ads</li>
+  <li>No user logins, tracking, or analytics</li>
+  <li>No backend server access</li>
+  </ul>
+   
+  </div>
+
+  <!-- OPEN SOURCE -->
+  <div class="flex-item">
+  <div style="font-weight:bold;font-size:x-large;">Open source</div>
+   <p>
+     The Christian Coder uses the <a href="https://unlicense.org" target="cco">Unlicense template</a> providing for a free and unencumbered software release into the public domain. Such a license encourages the wealth of shared knowledge and a creative culture.
+   </p>
+
+  <p>
+    View the Unlicense agreements for the <a href="https://github.com/christian-coder-org/bible-reader/blob/main/UNLICENSE.md" target="cco">Bible Reader app</a> and the <a href="https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md" target="cco">Christian Coder website</a>.
+  </p>
+  <ul>
+  <li>100% open source</li>
+  <li>Source code open to public auditing</li>
+  <li>Unlicense dedication to the public domain</li>
+  </ul>
+  </div>
+
+</div>
+
+
+
+
+<!-- The indentation that follows is important or you get an error -->
 ## Quick look
 
 The Bible Reader app was designed to be simple. The act of reading the Bible, as opposed to listening to someone reading it, allows the user's mind to float back-and-forth between verses as they read. This enhances the reader's understanding of the text. Controls and widgets just seem to get in the way.
 
-### Books
+<div class="flex-container">
+ <!-- BIBLES & BOOKS -->
+ <div class="flex-item2">
+ <div style="font-weight:bold;font-size:x-large;">Bibles & Books</div>
 
-Select a Bible (there are twelve editions) and start with any book from either the Old or New Testaments.
+  <p style="max-width:320px;">
+    Select a Bible (there are twelve editions) using the icon in the upper right corner. Then select any book from either the Old or New Testaments.
+  </p>
 
-<!--div>Bible selections<img src="./bibles.png" style="width:300px;margin-right:20px;"></div-->
-<div><img src="/home.png" style="width:250px;margin-right:20px;border:1px solid grey;border-radius:.5em;"></div>
+  <!--div>Bible selections<img src="./bibles.png" style="width:300px;margin-right:20px;"></div-->
+  <div><img src="/home.png" style="width:250px;margin-right:20px;border:1px solid grey;border-radius:.5em;"></div>
+  </div>
 
-## Chapters
+  <!-- CHAPTERS -->
+  <div class="flex-item2">
+  <div style="font-weight:bold;font-size:x-large;">Chapters</div>
 
-Easily move betweens chapters and the verses within a chapter. There is even a feature to compare any verse with the same verse in all twelve Bible editions.
+  <p style="max-width:320px;">
+    Easily move between chapters of a book. Use the icon in the upper right corner or the paginator in hte page footer. Click on a verse to compare with other Bible editions.
+  </p>
 
-<div><img src="/reader.png" style="width:250px;margin-right:20px;border:1px solid grey;border-radius:.5em;"></div>
+  <div><img src="/reader.png" style="width:250px;margin-right:20px;border:1px solid grey;border-radius:.5em;"></div>
+  </div>
 
-## Auditing
+  <!-- COMPARE VERSION -->
+  <div class="flex-item2">
+  <div style="font-weight:bold;font-size:x-large;">Compare verses</div>
 
-Anyone can view the [source code](https://github.com/christian-coder-org/bible-reader) of the Bible Reader app and perform an audit. Please feel free to verify the claims of the Christian Coder.
+  <p style="max-width:320px;">
+    The verse from all Bible editions are shown with the Bible edition you are reading in highlighted text.
+  </p>
 
-```ts
-// A small sample of the typescript code behind the Bible Reader app.
-const props = defineProps(["identifier"]);
-const identifier = ref(props.identifier);
-const bibles = ref(BIBLES);
+  <div><img src="/reader.png" style="width:250px;margin-right:20px;border:1px solid grey;border-radius:.5em;"></div>
+  </div>
+</div>
 
-const cancel = () => modalController.dismiss(null, "cancel");
-const confirm = (identifier: string) =>
-  modalController.dismiss(identifier, "confirm");
-```
+<style>
 
-## Unlicense
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-The Christian Coder uses the [Unlicense template](https://unlicense.org). This template provides for free and unencumbered software released into the public domain. Such a license empowers people to grow and sustain the thriving wealth of shared knowledge and culture, needed to address the world's most pressing challenges and create a brighter future for all.
+.flex-item {
+    flex: 1 1 calc(50% - 20px);
+    padding: 20px;
+    min-width:320px;
+}
 
-- View the Bible Reader app [UNLICENSE](https://github.com/christian-coder-org/bible-reader/blob/main/UNLICENSE.md) file.
-
-- View the Christian Coder website [UNLICENSE](https://github.com/christian-coder-org/website/blob/main/UNLICENSE.md) file.
-
+.flex-item2 {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 20px;
+    min-width:320px;
+}
+</style>
