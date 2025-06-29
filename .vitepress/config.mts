@@ -8,7 +8,6 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/icon-48.webp',
-
     sidebar: [
       {
         text: 'Overview',
@@ -31,7 +30,10 @@ export default defineConfig({
         link: '/docs/app-icon-splash-screens.md',
       },
     ],
-
+footer: {
+      message: 'Released under the <a target="cco" href="https://github.com/christian-coder-org/bible-reader/blob/main/UNLICENSE.md">Unlicense</a> template.',
+      copyright: 'Bible Reader app by the Christian Code, Wyoming Software, Inc'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/christian-coder-org/bible-reader' }
     ],
